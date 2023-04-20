@@ -2,7 +2,7 @@
 
 HashiCorp has moved the Foundation Policy Library to the Public Registry called `Policies Library`. This can be found [here](https://registry.terraform.io/browse/policies)
 
-This repo shows an example on how to use a policy from the `Policies Library`. This case we will use a policy that verifies the creation of a security rule on AWS that allows traffic from `0.0.0.0/0` to port 22. 
+This repo shows an example on how to use a policy from the `Policies Library`. In this example we will use a policy that verifies when a security rule on AWS traffic from `0.0.0.0/0` to port 22 wants to be created it should mark it as unwanted.  
 
 # Prerequesites
 - Have access to Terraform Cloud
